@@ -16,8 +16,14 @@ public class Bank {
     }
 
     public Bank(String authorizedUser){
-        accountType = AccountType.CHECKING;
+        this.accountType = AccountType.CHECKING;
         this.authorizedUser = authorizedUser;
+    }
+
+    public Bank(String authorizedUser, double balance){
+        this.balance = balance;
+        this.authorizedUser = authorizedUser;
+        this.accountType = AccountType.CHECKING;
     }
 
 

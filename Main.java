@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Bank trevorsBank = new Bank("Trevor England");
+        Bank trevorsBank = new Bank("Trevor England", 123.23);
         // trevorsBank.accountType = AccountType.CHECKING;
         // trevorsBank.deposit(50.00);
         // trevorsBank.withdrawal(25.20);
