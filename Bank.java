@@ -4,8 +4,17 @@
 
  enum AccountType {CHECKING, SAVINGS};
 public class Bank {
+
     AccountType accountType;
     private double balance;
+    String authorizedUser;
+
+    public Bank() { // constructor that matches name of the class.
+        super();
+        accountType = AccountType.CHECKING;
+        authorizedUser = "";
+        
+    }
 
 
     public double getBalance(){
