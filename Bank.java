@@ -13,7 +13,11 @@ public class Bank {
         super();
         accountType = AccountType.CHECKING;
         authorizedUser = "";
-        
+    }
+
+    public Bank(String authorizedUser){
+        accountType = AccountType.CHECKING;
+        this.authorizedUser = authorizedUser;
     }
 
 
